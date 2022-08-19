@@ -1,4 +1,5 @@
-div {
+.post-container {
+    z-index: 0;
     opacity: 0.9;
     box-shadow: 7px 7px 3px #495b6c;
     margin-top: 70px;
@@ -7,14 +8,15 @@ div {
     border-radius: 30px;
 }
 
-nav {
+.nav {
+    z-index: 1;
     position: fixed;
 }
 
 li {
     list-style-type: "🇷🇺";
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
@@ -28,10 +30,13 @@ img {
     border-radius: 30px;
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
+    background: rgba(0,0,0,60%);
+    margin-top: 130px;
 }
 
 .link {
@@ -65,10 +70,12 @@ footer {
 }
 
 body {
-    background: url("https://i.pinimg.com/originals/e2/24/31/e22431dc56b33a2797cf15d96c3b7c34.png");
+    background: linear-gradient(rgba(154, 41, 130, 0.93), #9198e5);
+    margin: 0;
 }
 
 header {
+    margin-top: 50px;
     box-shadow: 7px 7px 3px #495b6c;
     text-align: center;
     background: darkgrey;
@@ -80,13 +87,13 @@ h2{
     text-align: center;
 }
 
-.MarkTable {
+.table-marks {
     width: 100%;
     border: none;
     margin-bottom: 20px;
 }
 
-.MarkTable thead th {
+.table-marks thead th {
     font-weight: bold;
     text-align: left;
     border: none;
@@ -95,15 +102,15 @@ h2{
     font-size: 14px;
 }
 
-.MarkTable thead tr th:first-child {
+.table-marks thead tr th:first-child {
     border-radius: 8px 0 0 8px;
 }
 
-.MarkTable thead tr th:last-child {
+.table-marks thead tr th:last-child {
     border-radius: 0 8px 8px 0;
 }
 
-.MarkTable tbody td {
+.table-marks tbody td {
     text-align: left;
     border: none;
     padding: 10px 15px;
@@ -111,22 +118,22 @@ h2{
     vertical-align: top;
 }
 
-.MarkTable tbody tr:nth-child(even) {
+.table-marks tbody tr:nth-child(even) {
     background: slategray;
 }
 
-.MarkTable tbody tr td:first-child {
+.table-marks tbody tr td:first-child {
     border-radius: 8px 0 0 8px;
 }
 
-.MarkTable tbody tr td:last-child {
+.table-marks tbody tr td:last-child {
     border-radius: 0 8px 8px 0;
 }
 
-.MarkTable tr:nth-child(even):hover{
+.table-marks tr:nth-child(even):hover{
     background: #4190e0;
 }
 
-.MarkTable tr:nth-child(odd):hover{
+.table-marks tr:nth-child(odd):hover{
     background: #23578c;
 }
