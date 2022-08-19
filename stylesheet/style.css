@@ -34,9 +34,9 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     background: rgba(0,0,0,60%);
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .link {
@@ -64,14 +64,16 @@ img {
     background: gray;
 }
 
-.main {
+.main-bio {
     width: 800px;
     margin: 0 auto;
 }
 
+
 body {
     background: linear-gradient(rgba(154, 41, 130, 0.93), #9198e5);
     margin: 0;
+    flex-direction: column;
 }
 
 header {
@@ -136,4 +138,25 @@ h2{
 
 .table-marks tr:nth-child(odd):hover{
     background: #23578c;
+}
+
+.post-container-error {
+    z-index: 0;
+    opacity: 0.9;
+    box-shadow: 7px 7px 3px #495b6c;
+    padding: 30px;
+    background: #6d7d80;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.font-error{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main-error{
+    margin: auto;
+    width: 50%;
+    padding: 11.97%;
 }
