@@ -3,138 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>My bio</title>
-    <style>
-        div {
-            margin-top: 70px;
-            padding: 15px;
-            background: #6d7d80;
-            border-radius: 30px;
-        }
-
-        nav {
-            position: fixed;
-        }
-
-        li {
-            list-style-type: "🇷🇺";
-            padding-left: 10px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-        }
-
-        li:hover {
-            transition: 0.3s;
-            list-style-type: "🏴‍☠️";
-        }
-
-        img {
-            border-radius: 30px;
-        }
-
-        footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        .link {
-            color: black;
-            padding: 3px;
-            background: darkgrey;
-            border-radius: 10px;
-            text-decoration: none;
-        }
-
-        .link:hover {
-            transition: .3s;
-            border-radius: 15px 10px;
-            background: gray;
-        }
-
-        .boy {
-            color: black;
-            background: black;
-            text-decoration: none;
-        }
-
-        .boy:hover {
-            transition: 1s;
-            background: gray;
-        }
-
-        .main {
-            width: 800px;
-            margin: 0 auto;
-        }
-
-        body {
-            background: slategray;
-        }
-
-        header {
-            text-align: center;
-            background: darkgrey;
-            padding: 10px;
-            border-radius: 30px;
-        }
-
-        .table {
-            width: 100%;
-            border: none;
-            margin-bottom: 20px;
-        }
-
-        .table thead th {
-            font-weight: bold;
-            text-align: left;
-            border: none;
-            padding: 10px 15px;
-            background: #62778c;
-            font-size: 14px;
-        }
-
-        .table thead tr th:first-child {
-            border-radius: 8px 0 0 8px;
-        }
-
-        .table thead tr th:last-child {
-            border-radius: 0 8px 8px 0;
-        }
-
-        .table tbody td {
-            text-align: left;
-            border: none;
-            padding: 10px 15px;
-            font-size: 14px;
-            vertical-align: top;
-        }
-
-        .table tbody tr:nth-child(even) {
-            background: slategray;
-        }
-
-        .table tbody tr td:first-child {
-            border-radius: 8px 0 0 8px;
-        }
-
-        .table tbody tr td:last-child {
-            border-radius: 0 8px 8px 0;
-        }
-
-        .table tr:nth-child(even):hover{
-            background: #4190e0;
-        }
-
-        .table tr:nth-child(odd):hover{
-            background: #23578c;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
-<nav>
+<nav class="nav">
     <h2>Навигация</h2>
     <ul>
-        <li><a class="link" href="#unik">Мои достижения в унике</a></li>
+        <li><a class="link" href="#unik">Мои достижения</a></li>
         <li><a class="link" href="#pet">Мои пет проекты</a></li>
         <li><a class="link" href="#ass">Мои оценки</a></li>
         <li><a class="link" href="#hobby">Мои хобби</a></li>
@@ -147,7 +22,7 @@
         <aside>Тут весело</aside>
     </header>
 
-    <div>
+    <div class="post-container">
         <section>
             <h2> Немного обо мне</h2>
             <p>
@@ -158,13 +33,13 @@
                 Правда до добра это не довело. В 20 лет я стал таким, а друг...<br>
             </p>
             <img src="img/gayniy.jpeg" alt="">
-            <img src="img/kokos.jpg" alt="" height="400">
+            <img src="img/kokos.jpg" alt="">
             <p>
                 К сожалению я потерял своего друга, но мне нужно было идти в перед..<br>
             </p>
         </section>
     </div>
-    <div>
+    <div class="post-container">
         <h2 id="unik"> Мои достижения в унике </h2>
         <ul>
             <li>Ни разу не ловил долгов, но это не на долго</li>
@@ -173,7 +48,7 @@
             <li><b>Закрыл ЦОС</b></li>
         </ul>
     </div>
-    <div>
+    <div class="post-container">
         <h2 id="pet"> Мои пет проекты</h2>
         <span>Чет я много вспомнить не могу но есть тут один</span>
         <ul>
@@ -191,9 +66,9 @@
             </li>
         </ul>
     </div>
-    <div>
-        <h3 id="ass"> Так же мои оценки за прошлый семестр если вам очеееень интересно</h3>
-        <table class="table">
+    <div class="post-container">
+        <h2 id="ass"> Так же мои оценки за прошлый семестр если вам очеееень интересно</h2>
+        <table class="table-marks">
             <thead>
                 <tr>
                     <th>Название дисциплины</th>
@@ -256,7 +131,7 @@
             </tbody>
         </table>
     </div>
-    <div>
+    <div class="post-container">
         <h2 id="hobby">Мои хобби</h2>
         <ul>
             <li>Читать мангу</li>
@@ -271,36 +146,17 @@
         </ul>
     </div>
 
-    <div>
+    <div class="post-container">
         <h2 id="boy">Моя любимая цитата</h2>
         <blockquote>
             "Женщины для семьи, а мальчики для удовольствия."<br>
             —&nbsp; Какой-то Греческий бог
         </blockquote>
     </div>
-    <div style="text-align: center">
-        <a class="boy" href="https://www.cornhub.website/">
-            ────────▄▀▀▀▀▀▀▀▄───────<br>
-            ───────█▒▒▒▒▒▒▒▒▒█──────<br>
-            ──────█▒▒▒▒▒▒▒▒▒▒█──────<br>
-            ──────█▒▒▀▄▄▒▄▄▀▒█──────<br>
-            ─▄▄▄──█▒▒─▀─▒─▀─▒█──────<br>
-            █░░░▀▄█▒▒▒▒▒▒▒▒▒▒█──────<br>
-            ▀▄░░░▄▀▀▄▒▀▀▀▀▀▒▒▒▒▀▀▄──<br>
-            ─▀▄▄▀░░░░▀▄▒▒▒▒▒▒▒▒▒▒▀▄─<br>
-            ─█▒▀▄░░░░░░▀▄▒▒▒▒▒▒█▒▒█─<br>
-            ─▀▄▀▒▀▄░░░░░░▀▄▄▒▒▒▒▀▄▀─<br>
-            ───█▌▌▄▀░░░░░░░░░▀▄▌▌█──<br>
-            ───▀█▌█░░░░░▄░░░░░██▀───<br>
-            ─────██▀▄▄▄▄▀▄▄▄▄▀██────<br>
-        </a>
-    </div>
-    <hr>
-    <footer>
-        <a class="link" href="https://tlgg.ru/Favisky">я в телеге</a>
-        <a class="link" href="https://vk.com/whyuso">я в помойке</a>
-    </footer>
-    <hr>
 </main>
+<footer class="footer">
+    <a class="link" href="https://tlgg.ru/Favisky">я в телеге</a>
+    <a class="link" href="https://vk.com/whyuso">я в помойке</a>
+</footer>
 </body>
 </html>
