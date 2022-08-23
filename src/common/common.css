@@ -8,18 +8,3 @@ body {
     text-align: center;
 }
 
-.main {
-    width: 800px;
-    margin: 0 auto;
-}
-
-.font-error{
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.main-error{
-    margin: auto;
-    width: 50%;
-    padding: 10%;
-}

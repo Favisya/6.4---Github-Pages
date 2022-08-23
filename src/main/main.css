@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main_error{
+    width: 50%;
+    padding: 10%;
+}

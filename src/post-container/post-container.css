@@ -2,7 +2,7 @@
     z-index: 0;
 
     margin-top: 70px;
-    padding: 15px;
+    padding: 20px;
 
     background: #6d7d80;
     opacity: 0.9;
@@ -17,10 +17,15 @@
 
 .post-container__image {
     box-shadow: 7px 7px 3px #495b6c;
+
     border-radius: 30px;
+    max-width: 70%;
 }
 
 .post-container_error {
     padding: 30px;
     text-align: center;
+
+    font-weight: bold;
+    font-size: 40px;
 }
