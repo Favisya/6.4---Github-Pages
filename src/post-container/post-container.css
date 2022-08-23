@@ -1,4 +1,6 @@
 .post-container {
+    display: flex;
+    flex-direction: column;
     z-index: 0;
 
     margin-top: 70px;
@@ -19,7 +21,7 @@
     box-shadow: 7px 7px 3px #495b6c;
 
     border-radius: 30px;
-    max-width: 70%;
+    width: 40%;
 }
 
 .post-container_error {
@@ -29,3 +31,19 @@
     font-weight: bold;
     font-size: 40px;
 }
+
+.post-container_serial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.post-container__description {
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
