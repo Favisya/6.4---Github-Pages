@@ -1,11 +1,13 @@
 .button {
-    text-align: center;
-    display: block;
-    box-shadow: 7px 7px 3px #495b6c;
-    color: black;
     padding: 5px;
+
+    display: block;
+    text-align: center;
+
+    box-shadow: 7px 7px 3px #495b6c;
     background: darkgrey;
     border-radius: 10px;
+    color: black;
     text-decoration: none;
 }
 
@@ -15,12 +17,8 @@
     background: #1e1919;
 }
 
-.button_alternative_rating {
+.button_rating {
     background: #a46c6c;
-}
-
-.button_in-post {
-    width: 20%;
 }
 
 .button:hover {

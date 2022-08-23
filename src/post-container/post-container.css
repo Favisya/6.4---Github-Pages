@@ -32,11 +32,20 @@
     font-size: 40px;
 }
 
-.post-container_serial {
+.post-container__serial {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+}
+
+.post-container__link {
+    text-decoration: none;
+    color: #0d1680;
+}
+
+.post-container__link:hover {
+    color: #4c5396;
 }
 
 .post-container__description {

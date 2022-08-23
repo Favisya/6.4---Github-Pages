@@ -1,7 +1,10 @@
 body {
-    background: linear-gradient(rgba(154, 41, 130, 0.93), #9198e5);
     margin: 0;
+
+    display: flex;
     flex-direction: column;
+
+    background: linear-gradient(rgba(154, 41, 130, 0.93), #9198e5);
 }
 
 .title{

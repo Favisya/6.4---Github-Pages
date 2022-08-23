@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="src/button/button.css">
     <link rel="stylesheet" href="src/header/header.css">
     <link rel="stylesheet" href="src/footer/footer.css">
-    <link rel="stylesheet" href="src/box-table/box-table.css">
+    <link rel="stylesheet" href="src/flex-mark-table/flex-mark-table.css">
     <link rel="stylesheet" href="src/main/main.css">
 </head>
 <body>
@@ -21,14 +21,14 @@
 <aside class="nav-bar">
     <nav>
         <h2 class="title">Навигация</h2>
-        <ul class="nav-bar__list">
-            <li><a class="button" href="#header">В начало</a></li>
-            <li><a class="button" href="#bio">Обо мне</a></li>
-            <li><a class="button" href="#university">Мои достижения</a></li>
-            <li><a class="button" href="#pet">Мои пет проекты</a></li>
-            <li><a class="button" href="#ass">Мои оценки</a></li>
-            <li><a class="button" href="#hobby">Мои хобби</a></li>
-            <li><a class="button" href="#boy">Цитата</a></li>
+        <ul>
+            <li class="nav-bar__item"><a class="button" href="#header">В начало</a></li>
+            <li class="nav-bar__item"><a class="button" href="#bio">Обо мне</a></li>
+            <li class="nav-bar__item"><a class="button" href="#university">Мои достижения</a></li>
+            <li class="nav-bar__item"><a class="button" href="#pet">Мои пет проекты</a></li>
+            <li class="nav-bar__item"><a class="button" href="#ass">Мои оценки</a></li>
+            <li class="nav-bar__item"><a class="button" href="#hobby">Мои хобби</a></li>
+            <li class="nav-bar__item"><a class="button" href="#boy">Цитата</a></li>
         </ul>
     </nav>
 </aside>
@@ -76,8 +76,12 @@
         <h2 id="pet"> Мои пет проекты</h2>
         <span>Чет я много вспомнить не могу но есть тут один</span>
         <ul>
-            <li>Типа crm и cms для цветочного магазина <br>
-                <a class="button button_in-post" href="https://flowershoptagan.herokuapp.com"> ТЫКНИ МЕНЯ </a>
+            <li>
+                <a
+                    class="post-container__link"
+                    href="https://flowershoptagan.herokuapp.com">
+                    Типа crm и cms для цветочного магазина
+                </a>
                 <ul>
                     <li>Логин: alex</li>
                     <li>Пароль: 123</li>
@@ -85,69 +89,69 @@
                 Пожалуйста никого не удаляйте, поделайте новые букетики. <br>
                 Это все связано с апишкой от moyskald.
             </li>
-            <li> Еще есть творческий проект из вуза <br>
-                <a class="button button_in-post" href="https://cloudheadit.ru/">ТЫКНИ МЕНЯ</a>
+            <li>
+                Еще есть творческий <a class="post-container__link" href="https://cloudheadit.ru/">проект из вуза</a>
             </li>
         </ul>
     </div>
     <div class="post-container">
         <h2 id="ass"> Так же мои оценки за прошлый семестр если вам очеееень интересно</h2>
-        <div class="box-table">
-            <div class="box-table__header">
-                <div class="box-table__field">Название дисциплины</div>
-                <div class="box-table__field">Оценка</div>
-                <div class="box-table__field">Пересдача</div>
-                <div class="box-table__field">Балл</div>
-                <div class="box-table__field">Преподаватель(и)</div>
+        <div class="flex-mark-table">
+            <div class="flex-mark-table__header">
+                <div class="flex-mark-table__field">Название дисциплины</div>
+                <div class="flex-mark-table__field">Оценка</div>
+                <div class="flex-mark-table__field">Пересдача</div>
+                <div class="flex-mark-table__field">Балл</div>
+                <div class="flex-mark-table__field">Преподаватель(и)</div>
             </div>
-            <div class="box-table__row">
-                <div class="box-table__field">ЦОС</div>
-                <div class="box-table__field">Хорошо</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">74</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row">
+                <div class="flex-mark-table__field">ЦОС</div>
+                <div class="flex-mark-table__field">Хорошо</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">74</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
-            <div class="box-table__row box-table__row-even">
-                <div class="box-table__field">ВВИД</div>
-                <div class="box-table__field">Зачет</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">85</div>
-                <div class="box-table__field">Пленкин</div>
+            <div class="flex-mark-table__row flex-mark-table__row_even">
+                <div class="flex-mark-table__field">ВВИД</div>
+                <div class="flex-mark-table__field">Зачет</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">85</div>
+                <div class="flex-mark-table__field">Пленкин</div>
             </div>
-            <div class="box-table__row">
-                <div class="box-table__field">КИТПО</div>
-                <div class="box-table__field">Хорошо</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">72</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row">
+                <div class="flex-mark-table__field">КИТПО</div>
+                <div class="flex-mark-table__field">Хорошо</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">72</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
-            <div class="box-table__row box-table__row-even">
-                <div class="box-table__field">КСЕ</div>
-                <div class="box-table__field">Хорошо</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">71</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row flex-mark-table__row_even">
+                <div class="flex-mark-table__field">КСЕ</div>
+                <div class="flex-mark-table__field">Хорошо</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">71</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
-            <div class="box-table__row">
-                <div class="box-table__field">СУБД</div>
-                <div class="box-table__field">Хорошо</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">82</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row">
+                <div class="flex-mark-table__field">СУБД</div>
+                <div class="flex-mark-table__field">Хорошо</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">82</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
-            <div class="box-table__row box-table__row-even">
-                <div class="box-table__field">English B1</div>
-                <div class="box-table__field">Хорошо</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">72</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row flex-mark-table__row_even">
+                <div class="flex-mark-table__field">English B1</div>
+                <div class="flex-mark-table__field">Хорошо</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">72</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
-            <div class="box-table__row">
-                <div class="box-table__field">Физ-ра</div>
-                <div class="box-table__field">зачет</div>
-                <div class="box-table__field">нет</div>
-                <div class="box-table__field">66</div>
-                <div class="box-table__field">не указан</div>
+            <div class="flex-mark-table__row">
+                <div class="flex-mark-table__field">Физ-ра</div>
+                <div class="flex-mark-table__field">зачет</div>
+                <div class="flex-mark-table__field">нет</div>
+                <div class="flex-mark-table__field">66</div>
+                <div class="flex-mark-table__field">не указан</div>
             </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
-.box-table {
+.flex-mark-table {
     display: flex;
     flex-direction: column;
 }
 
-.box-table__header {
+.flex-mark-table__header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -12,7 +12,7 @@
     padding: 5px;
 }
 
-.box-table__row {
+.flex-mark-table__row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -20,11 +20,11 @@
     padding: 5px;
 }
 
-.box-table__row-even {
+.flex-mark-table__row_even {
     background: #495b6c;
     border-radius: 30px;
 }
 
-.box-table__field {
+.flex-mark-table__field {
     flex: 1;
 }
