@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(rgba(154, 41, 130, 0.93), #9198e5);
+    margin: 0;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.font-error{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main-error{
+    margin: auto;
+    width: 50%;
+    padding: 10%;
+}

@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    background: rgba(0,0,0,60%);
+    margin-top: 100px;
+}
+
+.footer_alternative {
+    background: rgba(80, 55, 55, 0.6);
+}

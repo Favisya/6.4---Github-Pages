@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 15px;
+    background: rgba(103, 11, 105, 0.9);
+}
+
+.header_alternative {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 15px;
+    background: rgba(173, 63, 175, 0.9);
+}

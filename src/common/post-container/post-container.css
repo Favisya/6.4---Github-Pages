@@ -1,0 +1,26 @@
+.post-container {
+    z-index: 0;
+
+    margin-top: 70px;
+    padding: 15px;
+
+    background: #6d7d80;
+    opacity: 0.9;
+    border-radius: 30px;
+    box-shadow: 7px 7px 3px #495b6c;
+}
+
+.post-container_header {
+    background: #af784a;
+    text-align: center;
+}
+
+.post-container__image {
+    box-shadow: 7px 7px 3px #495b6c;
+    border-radius: 30px;
+}
+
+.post-container_error {
+    padding: 30px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.button {
+    text-align: center;
+    display: block;
+    box-shadow: 7px 7px 3px #495b6c;
+    color: black;
+    padding: 5px;
+    background: darkgrey;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button_alternative {
+    color: white;
+    box-shadow: 7px 7px 3px #7994ad;
+    background: #1e1919;
+}
+
+.button_in-post {
+    width: 20%;
+}
+
+.button:hover {
+    transition: .3s;
+    background: gray;
+}
