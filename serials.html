@@ -10,23 +10,24 @@
     <link rel="stylesheet" href="src/header/header.css">
     <link rel="stylesheet" href="src/footer/footer.css">
     <link rel="stylesheet" href="src/main/main.css">
+    <link rel="stylesheet" href="src/form/form.css">
 </head>
 <body>
 <header id="header" class="header header_alternative">
-    <a class="button button_alternative button_alternative_rating" href="index.html">Главная</a>
-    <a class="button button_alternative button_alternative_rating" href="cats.html">Топ 5 котиков</a>
-    <a class="button button_alternative button_alternative_rating" href="serials.html">топ 5 сериалов</a>
+    <a class="button button_alternative button_rating" href="index.html">Главная</a>
+    <a class="button button_alternative button_rating" href="cats.html">Топ 5 котиков</a>
+    <a class="button button_alternative button_rating" href="serials.html">топ 5 сериалов</a>
 </header>
 <aside class="nav-bar">
     <nav>
         <h2 class="title">Навигация</h2>
-        <ul class="nav-bar__list">
-            <li><a class="button button_alternative_rating" href="#header">В начало</a></li>
-            <li><a class="button button_alternative_rating" href="#5place">5 место</a></li>
-            <li><a class="button button_alternative_rating" href="#4place">4 место</a></li>
-            <li><a class="button button_alternative_rating" href="#3place">3 место</a></li>
-            <li><a class="button button_alternative_rating" href="#2place">2 место</a></li>
-            <li><a class="button button_alternative_rating" href="#1place">1 место</a></li>
+        <ul>
+            <li class="nav-bar__item"><a class="button button_rating" href="#header">В начало</a></li>
+            <li class="nav-bar__item"><a class="button button_rating" href="#5place">5 место</a></li>
+            <li class="nav-bar__item"><a class="button button_rating" href="#4place">4 место</a></li>
+            <li class="nav-bar__item"><a class="button button_rating" href="#3place">3 место</a></li>
+            <li class="nav-bar__item"><a class="button button_rating" href="#2place">2 место</a></li>
+            <li class="nav-bar__item"><a class="button button_rating" href="#1place">1 место</a></li>
         </ul>
     </nav>
 </aside>
@@ -38,7 +39,7 @@
 
     <div id="5place" class="post-container">
         <h2 class="title">5 место Breaking bad</h2>
-        <div class="post-container_serial">
+        <div class="post-container__serial">
             <img
                 src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/300x450"
                 alt=":("
@@ -52,7 +53,7 @@
     </div>
     <div id="4place" class="post-container">
         <h2 class="title">4 место Рик и Морти</h2>
-        <div class="post-container_serial">
+        <div class="post-container__serial">
             <img
                 src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/03b417ff-d544-4f0b-a1fb-af09a2167a60/300x450"
                 alt=":("
@@ -65,7 +66,7 @@
     </div>
     <div id="3place" class="post-container">
         <h2 class="title">3 место Игра престолов</h2>
-        <div class="post-container_serial">
+        <div class="post-container__serial">
             <img
                 src="https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
                 alt=":("
@@ -78,7 +79,7 @@
     </div>
     <div id="2place" class="post-container">
         <h2 class="title">2 место Атака титанов</h2>
-        <div class="post-container_serial">
+        <div class="post-container__serial">
             <img
                 src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/70c27684-81cd-49e1-bf39-250b26702864/300x450"
                 alt=":("
@@ -92,7 +93,7 @@
     </div>
     <div id="1place" class="post-container">
         <h2 class="title">1 место Берсерк</h2>
-        <div class="post-container_serial">
+        <div class="post-container__serial">
             <img
                 src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c109658a-78f2-435e-b7d4-6680b702fa2f/orig"
                 alt=":("
@@ -105,10 +106,40 @@
             </p>
         </div>
     </div>
+
+    <div class="post-container">
+        <h2 class="title"> Оставьте ваш отзыв</h2>
+        <form class="form">
+            <div class="post-container__serial">
+                <div class="form__wrapper">
+                    <label>
+                        <input placeholder="Ваш псевдоним" class="form__input">
+                    </label>
+                    <label>
+                        <input type="email" placeholder="Email" class="form__input">
+                    </label>
+                    <div class="form__checkbox post-container__description">
+                        <label>
+                            <input type="checkbox" value="false">
+                        </label>
+                        <span> Запомнить меня</span>
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <textarea placeholder="Ваш комментарий" class="form__text-area form__text-area_right"></textarea>
+                    </label>
+                </div>
+            </div>
+            <div class="form__send-button-wrapper">
+                <input type="submit" class="form__send-button" value="Отправить">
+            </div>
+        </form>
+    </div>
 </main>
 <footer class="footer footer_alternative">
-    <a class="button button_alternative button_alternative_rating" href="https://tlgg.ru/Favisky">я в телеге</a>
-    <a class="button button_alternative button_alternative_rating" href="https://vk.com/whyuso">я в помойке</a>
+    <a class="button button_alternative button_rating" href="https://tlgg.ru/Favisky">я в телеге</a>
+    <a class="button button_alternative button_rating" href="https://vk.com/whyuso">я в помойке</a>
 </footer>
 </body>
 </html>
