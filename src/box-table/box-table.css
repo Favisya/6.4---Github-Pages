@@ -1,0 +1,30 @@
+.box-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-table__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    font-weight: bold;
+    padding: 5px;
+}
+
+.box-table__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 5px;
+}
+
+.box-table__row-even {
+    background: #495b6c;
+    border-radius: 30px;
+}
+
+.box-table__field {
+    flex: 1;
+}
