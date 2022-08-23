@@ -15,6 +15,10 @@
     background: #1e1919;
 }
 
+.button_alternative_rating {
+    background: #a46c6c;
+}
+
 .button_in-post {
     width: 20%;
 }

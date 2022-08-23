@@ -8,10 +8,5 @@
 }
 
 .header_alternative {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    padding: 15px;
-    background: rgba(173, 63, 175, 0.9);
+    background: rgba(204, 66, 186, 0.93);
 }
