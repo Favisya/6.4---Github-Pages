@@ -23,8 +23,8 @@
 .form__textarea {
     display: flex;
     align-content: flex-start;
-    width:100%;
 
+    width:100%;
     max-width:400px;
     min-width:400px;
     min-height: 83px;
@@ -42,10 +42,11 @@
 }
 
 .form__checkbox{
-    text-align: right;
-    margin-bottom: 20px;
-
+    display: flex;
     flex-direction: row;
+    text-align: right;
+
+    margin-bottom: 20px;
 
     font-style: italic;
 }
@@ -54,17 +55,24 @@
     text-align: center;
     margin-top: 10px;
 }
+
 .form__send-button{
     padding:10px 15px;
 
     width: 100%;
 
-    background: #a46c6c;
-    border:0 none;
-    cursor:pointer;
     color: white;
+
+    cursor:pointer;
+
+    border:0 none;
     border-radius: 30px;
     box-shadow: 7px 7px 3px #495b6c;
+    background: #a46c6c;
 }
 
-
+.form__review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

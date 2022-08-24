@@ -8,8 +8,9 @@
     flex-direction: row;
     justify-content: space-evenly;
 
-    font-weight: bold;
     padding: 5px;
+
+    font-weight: bold;
 }
 
 .mark-table__row {
@@ -21,8 +22,8 @@
 }
 
 .mark-table__row_even {
-    background: #495b6c;
     border-radius: 30px;
+    background: #495b6c;
 }
 
 .mark-table__field {

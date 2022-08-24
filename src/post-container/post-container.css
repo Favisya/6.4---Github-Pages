@@ -13,8 +13,9 @@
 }
 
 .post-container_header {
-    background: #af784a;
     text-align: center;
+
+    background: #af784a;
 }
 
 .post-container__image {
@@ -36,7 +37,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .post-container__link {
@@ -53,6 +53,3 @@
     text-align: center;
     font-weight: bolder;
 }
-
-
-

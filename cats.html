@@ -3,31 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Top 5 cats</title>
+    <link rel="stylesheet" href="src/post-container/post-container.css">
     <link rel="stylesheet" href="src/common/common.css">
     <link rel="stylesheet" href="src/button/button.css">
-    <link rel="stylesheet" href="src/post-container/post-container.css">
-    <link rel="stylesheet" href="src/aside/aside.css">
     <link rel="stylesheet" href="src/header/header.css">
     <link rel="stylesheet" href="src/footer/footer.css">
+    <link rel="stylesheet" href="src/aside/aside.css">
     <link rel="stylesheet" href="src/main/main.css">
     <link rel="stylesheet" href="src/form/form.css">
 </head>
 <body>
 <header id="header" class="header header_alternative">
-    <a class="button button_alternative button_rating" href="index.html">Главная</a>
-    <a class="button button_alternative button_rating" href="cats.html">Топ 5 котиков</a>
-    <a class="button button_alternative button_rating" href="serials.html">топ 5 сериалов</a>
+    <a
+        class="button button_alternative button_rating"
+        href="index.html"
+    >
+        Главная
+    </a>
+    <a
+        class="button button_alternative button_rating"
+        href="cats.html"
+    >
+        Топ 5 котиков
+    </a>
+    <a
+        class="button button_alternative button_rating"
+        href="serials.html"
+    >
+        топ 5 сериалов
+    </a>
 </header>
 <aside class="nav-bar">
     <nav>
         <h2 class="title">Навигация</h2>
         <ul>
-            <li class="nav-bar__item"><a class="button button_rating" href="#header">В начало</a></li>
-            <li class="nav-bar__item"><a class="button button_rating" href="#5place">5 место</a></li>
-            <li class="nav-bar__item"><a class="button button_rating" href="#4place">4 место</a></li>
-            <li class="nav-bar__item"><a class="button button_rating" href="#3place">3 место</a></li>
-            <li class="nav-bar__item"><a class="button button_rating" href="#2place">2 место</a></li>
-            <li class="nav-bar__item"><a class="button button_rating" href="#1place">1 место</a></li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#header">В начало</a>
+            </li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#5place">5 место</a>
+            </li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#4place">4 место</a>
+            </li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#3place">3 место</a>
+            </li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#2place">2 место</a>
+            </li>
+            <li class="nav-bar__item">
+                <a class="button button_rating" href="#1place">1 место</a>
+            </li>
         </ul>
     </nav>
 </aside>
@@ -84,29 +111,46 @@
     <div class="post-container">
         <h2 class="title"> Оставьте ваш отзыв</h2>
         <form class="form">
-            <div class="post-container__serial">
+            <div class="form__review">
                 <div class="form__wrapper">
                     <label>
-                        <input placeholder="Ваш псевдоним" class="form__input">
+                        <input
+                            placeholder="Ваш псевдоним"
+                            class="form__input"
+                        >
                     </label>
                     <label>
-                        <input type="email" placeholder="Email" class="form__input">
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            class="form__input"
+                        >
                     </label>
                     <div class="form__checkbox post-container__description">
                         <label>
-                            <input type="checkbox" value="false">
+                            <input
+                                type="checkbox"
+                                value="false"
+                            >
                         </label>
                         <span> Запомнить меня</span>
                     </div>
                 </div>
                 <div>
                     <label>
-                        <textarea placeholder="Ваш комментарий" class="form__textarea form__text-area_right"></textarea>
+                        <textarea
+                            placeholder="Ваш комментарий"
+                            class="form__textarea form__text-area_right"
+                        ></textarea>
                     </label>
                 </div>
             </div>
             <div class="form__send-button-wrapper">
-                <input type="submit" class="form__send-button" value="Отправить">
+                <input
+                    type="submit"
+                    class="form__send-button"
+                    value="Отправить"
+                >
             </div>
         </form>
     </div>
