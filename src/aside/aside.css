@@ -1,10 +1,12 @@
 .nav-bar {
-    z-index: 1;
     position: fixed;
+
+    z-index: 1;
 }
 
 .nav-bar__item {
     list-style-type: "😺";
+
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -12,5 +14,6 @@
 
 .nav-bar__item:hover {
     transition: 0.3s;
+
     list-style-type: "😻";
 }

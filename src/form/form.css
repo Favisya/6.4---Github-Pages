@@ -5,6 +5,7 @@
 .form__wrapper{
     display: flex;
     flex-direction: column;
+
     text-align: center;
 }
 
@@ -44,10 +45,10 @@
 .form__checkbox{
     display: flex;
     flex-direction: row;
-    text-align: right;
 
     margin-bottom: 20px;
 
+    text-align: right;
     font-style: italic;
 }
 
