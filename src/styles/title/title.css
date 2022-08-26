@@ -1,0 +1,41 @@
+.title {
+    display: block;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 5.7rem;
+
+    color: #000000;
+}
+
+.title_sentence-up-down {
+    margin: 4rem 0 2rem 0;
+}
+
+.title_about-product-up-down {
+    margin: 7rem 0 4rem 0;
+    padding: 0 23rem;
+
+    font-weight: 600;
+}
+
+.title_device-color {
+    margin: 7rem 0 7rem 0;
+    padding: 0 23rem;
+
+    font-weight: 600;
+}
+
+.title_more-info {
+    margin-bottom: 3rem;
+
+    font-weight: 600;
+}
+
+.title_default {
+    width: 60%;
+    font-weight: 600;
+}
+

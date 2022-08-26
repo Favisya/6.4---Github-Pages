@@ -1,0 +1,69 @@
+.button {
+    display: inline-block;
+
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+    background-color: #034093;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: #055bd0;
+}
+
+.button:active {
+    transition: 0.3s;
+    background-color: #055bd0;
+    outline: none;
+}
+
+.button_default {
+    border-radius: 2.8rem;
+    margin-top: 1.2rem;
+    padding: 1rem 5.2rem;
+    width: 10.2rem;
+}
+
+.button_more {
+    border-radius: 2.8rem;
+    margin-top: 4.7rem;
+    margin-bottom: 8.3rem;
+    padding: 0.9rem 4rem;
+    width: 12.4rem;
+}
+
+.button_colors {
+    border-radius: 2.8rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+    padding: 0.9rem 4rem;
+    width: 16rem;
+}
+
+.button_email {
+    position: absolute;
+
+    right: 0;
+
+    width: 16.9rem;
+    height: 7.1rem;
+
+    background: #034093;
+    border-radius: 52px;
+}
+
+.button_map {
+
+    padding: 0.9rem 4rem;
+
+    width: 16rem;
+    height: 2.2rem;
+
+    border-radius: 2.8rem;
+}

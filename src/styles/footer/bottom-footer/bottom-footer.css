@@ -1,0 +1,22 @@
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    background-color: #232323;
+}
+
+.bottom-footer__text {
+    font-family: 'Montserrat', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+
+    color: #FFFFFF;
+}

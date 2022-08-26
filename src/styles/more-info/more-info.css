@@ -1,0 +1,15 @@
+.more-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-info_text {
+    font-family: 'Open Sans', 'sans-serif';;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+.more-info_sides {
+    padding: 0 9rem;
+}

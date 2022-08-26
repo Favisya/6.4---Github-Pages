@@ -1,0 +1,58 @@
+.device-colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.device-colors__available {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.device-colors__available_up {
+    margin-top: 7rem;
+}
+
+.device-colors__circle {
+    margin-left: -26px;
+
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 50%;
+}
+
+.device-colors__circle_pink {
+    background-color: #E49292;
+}
+
+.device-colors__circle_orange {
+    background-color: #FFA740;
+}
+
+.device-colors__circle_blue {
+    background-color: #8280FF;
+}
+
+.device-colors__circle_red {
+    background-color: #8F0E0E;
+}
+
+.device-colors__circle_green {
+    background-color: #226424;
+}
+
+.device-colors__circle_purple {
+    background-color: #CB03CF;
+}
+
+.device-colors__circle_yellow {
+    background-color: #FFDC5F;
+}
+
+.device-colors__button {
+    display: flex;
+    justify-content: center;
+}

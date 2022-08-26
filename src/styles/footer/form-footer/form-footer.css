@@ -1,0 +1,14 @@
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 7rem 8rem 7rem 9rem;
+
+    background-color: #E8E8E8;
+}
+
+.form-footer_up {
+    margin-top: 7rem;
+}

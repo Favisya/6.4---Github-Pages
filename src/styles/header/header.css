@@ -1,0 +1,38 @@
+.header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.2rem;
+
+    z-index: 0;
+
+    font-size: 1.4rem;
+}
+
+.header__link {
+    align-items: flex-end;
+
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5.2rem;
+}
+
+.header_left {
+    margin-left: 8.5rem;
+}
+
+.header_up {
+    margin-top: 5rem;
+}

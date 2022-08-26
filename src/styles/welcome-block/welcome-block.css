@@ -1,0 +1,48 @@
+.welcome-block {
+    position: relative;
+
+    height: 64rem;
+
+    background: #121921;
+}
+
+.welcome-block__img {
+    position: absolute;
+
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome-block__img_up {
+    top: 0;
+}
+
+.welcome-block__img_right {
+    right: 0;
+}
+
+.welcome-block__title {
+    position: absolute;
+    z-index: 1;
+
+    height: auto;
+    max-width: 58%;
+
+    font-family: 'Montserrat', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 6.4rem;
+
+    color: #FFFFFF;
+}
+
+.welcome-block__title_up {
+    top: 25.6rem;
+}
+
+.welcome-block__title_left {
+    left: 8rem;
+}
