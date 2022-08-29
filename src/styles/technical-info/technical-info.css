@@ -1,27 +1,24 @@
-.more-info {
+.technical-info {
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 767px) {
-    .more-info {
+    .technical-info {
         display: none;
     }
 }
 
-.more-info_text {
-    font-family: 'Open Sans', 'sans-serif';;
+.technical-info_text {
+    margin: 0 9rem;
+
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.6rem;
 }
 
-.more-info_sides {
-    margin: 0 9rem;
-}
-
 @media (max-width: 1024px) {
-    .more-info_sides {
+    .technical-info_text {
         margin: 0 4rem;
     }
 }

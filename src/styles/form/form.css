@@ -3,13 +3,17 @@
     align-content: flex-end;
 
     position: relative;
-
-    width: fit-content;
 }
 
 .form__input {
     width: 48.5rem;
     height: 6.5rem;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    color: #606060;
 
     border: 2px solid #232323;
     border-radius: 48px;
@@ -19,5 +23,30 @@
     .form__input {
         width: 35.5rem;
         height: 5.2rem;
+    }
+}
+
+.form_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 7rem;
+    padding: 7rem 8rem 7rem 9rem;
+
+    background-color: #E8E8E8;
+}
+
+@media (max-width: 1024px) {
+    .form_footer {
+        flex-direction: column;
+
+        padding: 3rem 6.5rem 4rem 6.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .form_footer {
+        padding: 3rem 1rem 5rem 1rem;
     }
 }

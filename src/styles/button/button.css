@@ -1,7 +1,6 @@
 .button {
     display: inline-block;
 
-    font-family: 'Open Sans', 'sans-serif';
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -23,7 +22,7 @@
     outline: none;
 }
 
-.button_default {
+.button_primary {
     border-radius: 2.8rem;
     margin-top: 1.2rem;
     padding: 1rem 5.2rem;
@@ -31,28 +30,22 @@
 }
 
 .button_more {
-    border-radius: 2.8rem;
-    margin-top: 4.7rem;
-    margin-bottom: 8.3rem;
     padding: 0.9rem 4rem;
+
     width: 12.4rem;
-}
 
-@media (max-width: 1024px) {
-    .button_more {
-        margin-top: 1.6rem;
-    }
-}
-
-.button_colors {
     border-radius: 2.8rem;
-    margin-top: 4rem;
-    margin-bottom: 7rem;
-    padding: 0.9rem 4rem;
-    width: 16rem;
 }
 
-.button_email {
+.button_secondary {
+    padding: 0.9rem 4rem;
+
+    width: 16rem;
+
+    border-radius: 2.8rem;
+}
+
+.button_big {
     position: absolute;
 
     right: 0;
@@ -62,21 +55,13 @@
 
     background: #034093;
     border-radius: 52px;
+    outline: none;
+    border: none;
 }
 
 @media (max-width: 767px) {
-    .button_email {
+    .button_big {
         width: 14.7rem;
         height: 5.8rem;
     }
-}
-
-.button_map {
-
-    padding: 0.9rem 4rem;
-
-    width: 16rem;
-    height: 2.2rem;
-
-    border-radius: 2.8rem;
 }
