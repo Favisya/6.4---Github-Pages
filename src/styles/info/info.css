@@ -1,53 +1,53 @@
 .info {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
     position: relative;
+    box-sizing: border-box;
 
     border-radius: 1.4rem;
     background-color: #121921;
+}
+
+@media (max-width: 1024px) {
+    .info {
+        width: 90%;
+        min-width: 75.4rem;
+        height: 31.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .info {
+        width: 95%;
+        text-align: center;
+
+        min-width: 35.5rem;
+        height: 32.7rem;
+    }
 }
 
 .info_sides {
     margin: 7.1rem 4rem 0 4rem;
 }
 
+@media (max-width: 767px) {
+    .info_sides {
+        margin: 4rem 1rem 0 1rem;
+    }
+}
+
 .info__img {
-    display: block;
+    width: 45%;
 
-    max-width: 100%;
-    height: auto;
+    border-radius: 0 14px 14px 0;
+    background-image: url('../../img/info-girl.png');
+    background-size: cover;
+    background-position: right bottom;
 }
 
-.info__text {
-    padding: 7rem 0 0 7rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.info__title {
-    width: 70%;
-
-    font-family: 'Open Sans', 'sans-serif';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 31px;
-    color: #FFFFFF;
-}
-
-.info__description {
-    width: 85%;
-
-    font-family: 'Open Sans', 'sans-serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: #FFFFFF;
-}
-
-.info__description_up {
-    margin-top: 2rem;
+@media (max-width: 767px) {
+    .info__img {
+        display: none;
+    }
 }

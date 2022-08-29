@@ -14,11 +14,37 @@
     padding: 0 4rem;
 }
 
+@media (max-width: 1024px) {
+    .sentence__products {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .sentence__products {
+        padding: 0 1rem;
+    }
+}
+
 .sentence__item {
     display: flex;
     flex-direction: column;
 
     width: auto;
+}
+
+@media (max-width: 1024px) {
+    .sentence__item {
+        max-width: 36.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .sentence__item {
+        width: 35.5rem;
+        max-width: 36.7rem;
+    }
 }
 
 .sentence__img {

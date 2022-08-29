@@ -14,18 +14,46 @@
     margin: 4rem 0 2rem 0;
 }
 
+@media (max-width: 1024px) {
+    .title_sentence-up-down {
+        margin: 3rem 0 2rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .title_sentence-up-down {
+        margin: 4rem 0 2rem 0;
+
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+}
+
 .title_about-product-up-down {
     margin: 7rem 0 4rem 0;
-    padding: 0 23rem;
+    text-align: center;
 
     font-weight: 600;
 }
 
+@media (max-width: 767px) {
+    .title_about-product-up-down {
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+    }
+}
+
 .title_device-color {
     margin: 7rem 0 7rem 0;
-    padding: 0 23rem;
 
     font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .title_device-color {
+
+        font-weight: 400;
+    }
 }
 
 .title_more-info {
@@ -34,8 +62,29 @@
     font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+    .title_more-info {
+        margin-bottom: 2rem;
+    }
+}
+
 .title_default {
     width: 60%;
     font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .title_default {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .title_default {
+        width: 100%;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
 }
 

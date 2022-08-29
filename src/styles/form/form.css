@@ -14,3 +14,10 @@
     border: 2px solid #232323;
     border-radius: 48px;
 }
+
+@media (max-width: 767px) {
+    .form__input {
+        width: 35.5rem;
+        height: 5.2rem;
+    }
+}

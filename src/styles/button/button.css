@@ -38,6 +38,12 @@
     width: 12.4rem;
 }
 
+@media (max-width: 1024px) {
+    .button_more {
+        margin-top: 1.6rem;
+    }
+}
+
 .button_colors {
     border-radius: 2.8rem;
     margin-top: 4rem;
@@ -56,6 +62,13 @@
 
     background: #034093;
     border-radius: 52px;
+}
+
+@media (max-width: 767px) {
+    .button_email {
+        width: 14.7rem;
+        height: 5.8rem;
+    }
 }
 
 .button_map {

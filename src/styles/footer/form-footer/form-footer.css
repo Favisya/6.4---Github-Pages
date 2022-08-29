@@ -9,6 +9,21 @@
     background-color: #E8E8E8;
 }
 
+@media (max-width: 1024px) {
+    .form-footer {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 3rem 6.5rem 4rem 6.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-footer {
+        padding: 3rem 1rem 5rem 1rem;
+    }
+}
+
 .form-footer_up {
     margin-top: 7rem;
 }

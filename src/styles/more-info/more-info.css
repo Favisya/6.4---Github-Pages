@@ -3,6 +3,12 @@
     flex-direction: column;
 }
 
+@media (max-width: 767px) {
+    .more-info {
+        display: none;
+    }
+}
+
 .more-info_text {
     font-family: 'Open Sans', 'sans-serif';;
     font-weight: 400;
@@ -11,5 +17,11 @@
 }
 
 .more-info_sides {
-    padding: 0 9rem;
+    margin: 0 9rem;
+}
+
+@media (max-width: 1024px) {
+    .more-info_sides {
+        margin: 0 4rem;
+    }
 }
