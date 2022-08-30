@@ -30,39 +30,3 @@
         margin-top: 0;
     }
 }
-
-.header__link {
-    align-items: flex-end;
-
-    font-family: 'Open Sans', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
-    text-decoration: none;
-    color: white;
-}
-
-.header__link:hover {
-    transition: .3s;
-    color: #055bd0;
-}
-
-.header__menu {
-    display: none;
-}
-
-@media (max-width: 767px) {
-    .header__menu {
-        display: inline-block;
-    }
-}
-
-.header__svg {
-}
-
-@media (max-width: 767px) {
-    .header__svg {
-        fill: #034093;
-    }
-}

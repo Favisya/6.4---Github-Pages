@@ -6,7 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.main-container {
+.max-width {
     margin: 0 auto;
     max-width: 192rem;
 }

@@ -25,11 +25,13 @@
 }
 
 .welcome-block__img {
-    position: absolute;
+    display: block;
 
+    position: absolute;
     z-index: 0;
 
-    display: block;
+    top: 0;
+    right: 0;
 
     max-width: 100%;
     height: auto;
@@ -48,12 +50,6 @@
         align-items: flex-start;
     }
 }
-
-.welcome-block__img_sides {
-    top: 0;
-    right: 0;
-}
-
 
 .welcome-block__title {
     position: absolute;

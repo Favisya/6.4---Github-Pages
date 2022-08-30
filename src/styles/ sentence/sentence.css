@@ -43,3 +43,14 @@
         padding: 0 1rem;
     }
 }
+
+.sentence__title {
+    display: block;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 5.7rem;
+
+    color: #000000;
+}

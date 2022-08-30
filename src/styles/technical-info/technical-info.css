@@ -22,3 +22,22 @@
         margin: 0 4rem;
     }
 }
+
+
+.technical-info__title {
+    display: block;
+    text-align: center;
+
+    margin-bottom: 3rem;
+
+    font-size: 4.2rem;
+    line-height: 5.7rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .technical-info__title {
+        margin-bottom: 2rem;
+    }
+}
