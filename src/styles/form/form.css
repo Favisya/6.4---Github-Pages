@@ -6,7 +6,9 @@
 }
 
 .form__input {
-    width: 48.5rem;
+    padding-left: 2rem;
+
+    width: 46.5rem;
     height: 6.5rem;
 
     font-size: 1.8rem;
@@ -15,13 +17,14 @@
     letter-spacing: 0.025em;
     color: #606060;
 
+    outline: none;
     border: 2px solid #232323;
     border-radius: 48px;
 }
 
 @media (max-width: 767px) {
     .form__input {
-        width: 35.5rem;
+        width: 33.5rem;
         height: 5.2rem;
     }
 }

@@ -56,14 +56,17 @@
 
 @media (max-width: 1024px) {
     .title_form {
-        width: 100%;
         margin-bottom: 3rem;
+
+        width: 100%;
+        text-align: center;
     }
 }
 
 @media (max-width: 767px) {
     .title_form {
         width: 100%;
+
         font-size: 2.2rem;
         line-height: 3.5rem;
         text-align: center;
